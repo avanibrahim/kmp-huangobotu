@@ -41,13 +41,13 @@ export default function PhotoSection() {
         draggable={false}
       />
       {/* Overlay, content, shadow */}
-      <div className="absolute inset-0 flex flex-col justify-end px-4 md:px-10 pb-10 bg-black/30">
-        <div className="max-w-xl text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-4 md:px-10 text-white bg-black/30">
+        <div className="max-w-xl text-center drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
         <h1 className="text-2xl md:text-4xl font-extrabold leading-tight mb-1">
       {slides[idx].title}
         </h1>
         <h2 className="text-lg md:text-2xl font-bold mb-1">{slides[idx].subtitle}</h2>
-        <p className="text-xs md:text-base text-gray-100">{slides[idx].desc}</p>
+            <p className="text-xs md:text-base text-gray-100">{slides[idx].desc}</p>
         </div>
       </div>
       {/* Panah navigasi */}

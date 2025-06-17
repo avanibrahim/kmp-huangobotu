@@ -32,13 +32,13 @@ const Index = () => {
             <GaleriSection />
           </div>
           <div>
-            <PetaDesaSection />
             <AdministrasiSection />
-            <APBDesaSection />
             <BelanjaSection />
             <BeritaDesaSection />
+            <APBDesaSection />
           </div>
         </div>
+          <PetaDesaSection />
       </div>
       <FooterKersik />
     </div>

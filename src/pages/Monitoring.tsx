@@ -11,7 +11,7 @@ const Monitoring = () => (
       <Construction className="w-16 h-16 text-orange-500 mb-4" />
       <h1 className="text-3xl font-bold text-gray-800 mb-2">Monitoring</h1>
       <p className="text-lg text-gray-500 mb-6">
-        Halaman Monitoring sedang dalam pengembangan.<br />Coming Soon / 404 Not Found.
+        Halaman Monitoring sedang dalam pengembangan.
       </p>
       <a
         href="/"
